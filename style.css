@@ -3,3 +3,214 @@
  padding: 0;
  box-sizing: border-box;
 }
+body{
+    background-color: black;
+}
+
+/* BLOCK-1 */
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color:rgb(133 130 130);
+    color:white;
+    height:70px;
+    width:50;
+}
+.spotify-logo{
+    margin-left:20px;
+}
+.spotify-logo i {
+    font-size: 45px;
+}
+.home-icon {
+    margin-left:350px;
+    padding:10px;
+    border:0.5px solid  rgb(30 29 29);
+    border-radius: 30px;
+    background-color:  rgb(30 29 29);
+    
+}
+.home-icon i {
+    font-size: 25px;
+}
+.searchbar{
+    margin-left:6px;
+    background-color: rgb(30 29 29) ;
+    padding:15px;
+    border-radius: 30px;
+    padding-left:20px;
+}
+
+.searchbar input{
+    width:500px;
+    border:none;
+    background-color:rgb(30 29 29) ;
+    align-items: center;
+    color:white;
+    font-weight: bolder;
+}
+
+.searchbar i{
+    font-size: 20px;
+}
+.searchbar:hover{
+    border:white;
+}
+
+.btn p{
+    font-size: 22px;
+    margin-left:250px;
+    font-weight: 500;
+}
+.btn p:hover{
+   text-decoration: underline;
+}
+
+.btn-1{
+   margin-left:20px;
+   padding:10px 35px;
+   border:1px solid rgb(30 29 29);
+   border-radius: 30px;
+   background-color: rgb(30 29 29);
+   color:white;
+}
+.btn-1 button{
+    background-color: rgb(30 29 29);
+    border:none;
+    color:white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.btn-1 button:hover{
+    text-decoration: underline;
+}
+
+/* BLOCK-2 */
+.sidepart{
+   height:615px;
+   width:320px;
+   background-color:rgb(133 130 130) ;
+   margin-top:5px;
+   margin-left:5px;
+   position:fixed;
+   border-radius: 5px;
+}
+.library{
+    display: flex;
+    margin-top:10px;
+    margin-left: 20px;
+    color: white;
+}
+.library i{
+    font-size: 23px;
+}
+.library p{
+    margin-left:25px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.library i:nth-child(3){
+    margin-left:100px;
+}
+
+.container{
+    height:130px;
+    width:310px;
+    background-color:rgb(30 29 29);
+    border-radius: 10px;
+    color:white;
+    margin-left:4px;
+    margin-top:20px;
+    padding:15px 15px;
+    font-size:18px;
+}
+.container p:nth-child(1){
+    font-weight:700;
+}
+.container p:nth-child(2){
+    font-size: 15px;
+    font-weight:500;
+    padding-top:7px;
+}
+.container button{
+    margin-top:20px;
+    margin-left:0px;
+    padding:10px 17px;
+    border-radius: 20px;;
+}
+.container button:hover{
+    text-decoration: underline;
+}
+
+.container-1{
+    height:130px;
+    width:310px;
+    background-color:rgb(30 29 29);
+    border-radius: 10px;
+    color:white;
+    margin-left:4px;
+    margin-top:20px;
+    padding:15px 15px;
+    font-size:18px;
+}
+.container-1 p:nth-child(1){
+    font-weight:700;
+}
+.container-1 p:nth-child(2){
+    font-size: 15px;
+    font-weight:500;
+    padding-top:7px;
+}
+.container-1 button{
+    margin-top:20px;
+    margin-left:0px;
+    padding:10px 17px;
+    border-radius: 20px;
+}
+.container-1 button:hover{
+    text-decoration: underline;
+}
+
+.container-2{
+    
+    height:230px;
+    width:310px;
+    background-color:rgb(30 29 29);
+    border-radius: 10px;
+    color:white;
+    margin-left:4px;
+    margin-top:20px;
+    padding:15px 15px;
+    font-size:13px;
+}
+.container-2 p{
+    padding-top:7px;
+}
+.container-2 p:hover{
+    text-decoration: underline;
+}
+.container-2 button{
+    margin-top:15px;
+    margin-left:170px;
+    padding:10px 20px;
+    border-radius: 20px;
+    background-color:rgb(30 29 29) ;
+    color:white;
+    border:1px solid white;
+}
+.container-2 button:hover{
+    text-decoration: underline;
+}
+.container-2 button i{
+    padding-right:5px;
+}
+
+/* BLOCK-3 */
+.main{
+    color:white;
+    margin-left:350px;
+    margin-top:20px;
+}
+.main h1:hover{
+    text-decoration: underline;
+}
