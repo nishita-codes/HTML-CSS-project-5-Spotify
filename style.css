@@ -349,3 +349,32 @@ body{
 .box-2 img:hover{
     border:1px solid white;
 }
+
+.main-4{
+    color:white;
+    margin-left:350px;
+    margin-top:40px;
+}
+.main-4 h1:hover{
+    text-decoration: underline;
+}
+.box-3{
+    display: flex;
+    background-color:rgb(30 29 29);
+    color:black;
+    border:1px solid rgb(30 29 29);
+    height:250px;
+    width:1160px;
+    padding-top:20px;
+    padding-left:5px;
+    margin-left:350px;
+    margin-top:20px;
+}
+.box-3 img{
+    width:180px;
+    height:200px;
+    margin:5px;
+}
+.box-3 img:hover{
+    border:1px solid white;
+}
